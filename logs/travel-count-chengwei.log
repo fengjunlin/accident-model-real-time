@@ -1,0 +1,116 @@
+2020-04-24 18:07:24 [main] INFO  com.fengjunlin.accident.Application -> Starting Application on 冯军林 with PID 22900 (D:\IdeaProjects\accident-model-real-time\target\classes started by 86182 in D:\IdeaProjects\accident-model-real-time)
+2020-04-24 18:07:24 [main] INFO  com.fengjunlin.accident.Application -> The following profiles are active: dev
+2020-04-24 18:07:24 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -> Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3e694b3f: startup date [Fri Apr 24 18:07:24 CST 2020]; root of context hierarchy
+2020-04-24 18:07:25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -> Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-24 18:07:25 [main] WARN  t.m.s.mapper.ClassPathMapperScanner -> No MyBatis mapper was found in '[com.fengjunlin.accident]' package. Please check your configuration.
+2020-04-24 18:07:25 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -> Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$ed1cd25c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-24 18:07:25 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$196ac0d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-24 18:07:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -> Tomcat initialized with port(s): 9888 (http)
+2020-04-24 18:07:25 [main] INFO  o.a.coyote.http11.Http11NioProtocol -> Initializing ProtocolHandler ["http-nio-9888"]
+2020-04-24 18:07:25 [main] INFO  o.a.catalina.core.StandardService -> Starting service [Tomcat]
+2020-04-24 18:07:25 [main] INFO  o.a.catalina.core.StandardEngine -> Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-24 18:07:25 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener -> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\install\java\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;.;D:\install\java\jdk\lib\dt.jar;D:\install\java\jdk\lib\tools.jar;;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;D:\install\git\Git\cmd;D:\install\mavem\apache-maven-3.6.3\bin;D:\install\go\bin;D:\install\Geth;C:\Users\86182\AppData\Local\Microsoft\WindowsApps;C:\Users\86182\go\bin;.]
+2020-04-24 18:07:26 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -> Initializing Spring embedded WebApplicationContext
+2020-04-24 18:07:26 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader -> Root WebApplicationContext: initialization completed in 1212 ms
+2020-04-24 18:07:26 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -> Servlet dispatcherServlet mapped to [/]
+2020-04-24 18:07:26 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -> Servlet statViewServlet mapped to [/druid/*]
+2020-04-24 18:07:26 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -> Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-24 18:07:26 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-24 18:07:26 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-24 18:07:26 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -> Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-24 18:07:26 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -> Mapping filter: 'webStatFilter' to urls: [/*]
+2020-04-24 18:07:26 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -> Initializing ExecutorService 
+2020-04-24 18:07:26 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -> Initializing ExecutorService 
+2020-04-24 18:07:26 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -> Initializing ExecutorService  'asyncExecutor'
+2020-04-24 18:07:26 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-24 18:07:26 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -> Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3e694b3f: startup date [Fri Apr 24 18:07:24 CST 2020]; root of context hierarchy
+2020-04-24 18:07:26 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -> Mapped "{[/api/test]}" onto public java.lang.Object com.fengjunlin.accident.controller.SearchLabelController.searchLabelWithDeviceId()
+2020-04-24 18:07:26 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-24 18:07:26 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-24 18:07:26 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-24 18:07:26 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-24 18:07:26 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure -> Init DruidDataSource
+2020-04-24 18:07:26 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-04-24 18:07:26 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -> Shutting down ExecutorService 'asyncExecutor'
+2020-04-24 18:07:26 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -> Shutting down ExecutorService
+2020-04-24 18:07:26 [main] INFO  o.a.catalina.core.StandardService -> Stopping service [Tomcat]
+2020-04-24 18:07:26 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-24 18:07:26 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2020-04-24 18:08:03 [main] INFO  com.fengjunlin.accident.Application -> Starting Application on 冯军林 with PID 22976 (D:\IdeaProjects\accident-model-real-time\target\classes started by 86182 in D:\IdeaProjects\accident-model-real-time)
+2020-04-24 18:08:03 [main] INFO  com.fengjunlin.accident.Application -> The following profiles are active: dev
+2020-04-24 18:08:03 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -> Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@459e9125: startup date [Fri Apr 24 18:08:03 CST 2020]; root of context hierarchy
+2020-04-24 18:08:03 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -> Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-24 18:08:03 [main] WARN  t.m.s.mapper.ClassPathMapperScanner -> No MyBatis mapper was found in '[com.fengjunlin.accident]' package. Please check your configuration.
+2020-04-24 18:08:03 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -> Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$3d69eda] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-24 18:08:03 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$30248d57] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-24 18:08:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -> Tomcat initialized with port(s): 9888 (http)
+2020-04-24 18:08:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol -> Initializing ProtocolHandler ["http-nio-9888"]
+2020-04-24 18:08:04 [main] INFO  o.a.catalina.core.StandardService -> Starting service [Tomcat]
+2020-04-24 18:08:04 [main] INFO  o.a.catalina.core.StandardEngine -> Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-04-24 18:08:04 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener -> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\install\java\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;.;D:\install\java\jdk\lib\dt.jar;D:\install\java\jdk\lib\tools.jar;;JAVA_HOME%\bin;JAVA_HOME%\jre\bin;D:\install\git\Git\cmd;D:\install\mavem\apache-maven-3.6.3\bin;D:\install\go\bin;D:\install\Geth;C:\Users\86182\AppData\Local\Microsoft\WindowsApps;C:\Users\86182\go\bin;.]
+2020-04-24 18:08:04 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -> Initializing Spring embedded WebApplicationContext
+2020-04-24 18:08:04 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader -> Root WebApplicationContext: initialization completed in 1064 ms
+2020-04-24 18:08:04 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -> Servlet dispatcherServlet mapped to [/]
+2020-04-24 18:08:04 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -> Servlet statViewServlet mapped to [/druid/*]
+2020-04-24 18:08:04 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -> Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-24 18:08:04 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-24 18:08:04 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-24 18:08:04 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -> Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-24 18:08:04 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -> Mapping filter: 'webStatFilter' to urls: [/*]
+2020-04-24 18:08:05 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -> Initializing ExecutorService 
+2020-04-24 18:08:05 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -> Initializing ExecutorService 
+2020-04-24 18:08:05 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -> Initializing ExecutorService  'asyncExecutor'
+2020-04-24 18:08:05 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-24 18:08:05 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -> Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@459e9125: startup date [Fri Apr 24 18:08:03 CST 2020]; root of context hierarchy
+2020-04-24 18:08:05 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -> Mapped "{[/api/test]}" onto public java.lang.Object com.fengjunlin.accident.controller.SearchLabelController.searchLabelWithDeviceId()
+2020-04-24 18:08:05 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-24 18:08:05 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-24 18:08:05 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-24 18:08:05 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-24 18:08:05 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure -> Init DruidDataSource
+2020-04-24 18:08:05 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2020-04-24 18:08:05 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -> Shutting down ExecutorService 'asyncExecutor'
+2020-04-24 18:08:05 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -> Shutting down ExecutorService
+2020-04-24 18:08:05 [main] INFO  o.a.catalina.core.StandardService -> Stopping service [Tomcat]
+2020-04-24 18:08:05 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-24 18:08:05 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
